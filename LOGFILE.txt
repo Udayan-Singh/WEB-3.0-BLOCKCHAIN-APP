@@ -1,0 +1,13 @@
+// log file to store edits...
+// just for easier access.
+// Timeline : 
+
+17-03-2023 => client app created.
+18-03-2023 => smart_contract created.
+18-03-2023 => Dry run test Failed.
+18-03-2023 => Dry run Successful.
+19-03-2023 => Ethereum balance checking app created.
+19-03-2023 => Dry run of ETH_Balance check app Success.
+19-03-2023 => cryptominer app created.
+19-03-2023 => LOGFILE created.
+20-03-2023 => cryptominer test run success.
