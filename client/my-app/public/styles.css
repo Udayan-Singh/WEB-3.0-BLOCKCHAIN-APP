@@ -1,0 +1,505 @@
+html,
+body {
+    margin: 0px;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-family: arial;
+}
+
+.navbar-top {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 19px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    /*background: linear-gradient(90deg, #040024, #16301a, #160000);*/
+    background-image: url("https://wallpapercave.com/dwp1x/wp4788926.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-color: #58287f;
+    color: #f2ebff;
+    margin: 0;
+    height: auto;
+    align-items: center;
+
+    border-width: 0px 0em 3px 0;
+    border-style: solid;
+    border-color: #394aff;
+    padding: 1%;
+}
+
+.navbar-logo {
+    height: 100px;
+    width: 200px;
+    margin: 0 20px;
+    border-radius: 20px;
+}
+
+.flatenn {
+    display: flex;
+    align-items: center;
+}
+
+.listStyle {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    margin: 20px 40px;
+    transition: 0.5s;
+}
+
+/*.listStyle:hover {
+    color: rgb(206, 255, 123);
+    transition: 0.5s;
+}*/
+
+/*.loginlist {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    background-color: rgb(128, 255, 0);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 20px 40px;
+}*/
+
+.loginlist:hover {
+    background-color: rgb(255, 247, 0);
+    transition: 0.5s;
+}
+
+.MainSection {
+    background: linear-gradient(135deg, #D09CFA, #F3CCFF, #FFFFD0);
+
+    background-color: #E5E0FF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-width: 0px 0em 3px 0;
+    border-style: solid;
+    border-color: #a94dc8;
+}
+
+@media only screen and (max-width: 1350px){
+    .MainSection{
+        flex-direction: column;
+    }
+    
+}
+@media only screen and (max-width: 1000px){
+    .MainSection{
+        flex-direction: column;
+    }
+
+    .listStyle {
+        font-size: 20px;
+    }
+    
+    .navbar-logo {
+        height: 80px;
+        width: 160px;
+        margin: 0 20px;
+        border-radius: 20px;
+    }
+}
+
+.welcomeStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    color: white;
+    margin: 0;
+    height: auto;
+    align-items: center;
+    padding: 50px;
+}
+
+.welcometext {
+    margin: 10px;
+    color: #3d0076;
+    width: 600px;
+    font-size: 48px;
+}
+
+.greetingstext {
+    margin: 20px;
+    color: #3A1078;
+    width: 600px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wlecome-button {
+    background-color: #6e2ad3;
+    color: rgb(255, 255, 255);
+    padding: 0 20px;
+    border-radius: 10px;
+    border: 0px solid transparent;
+    transition: 0.5s;
+}
+
+.wlecome-button:hover {
+    background-color: #3A1078;
+    color: white;
+    transition: 0.5s;
+}
+
+.button-text {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.welcomefeatures {
+    width: 60%;
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.featureboxTL {
+    border: 2px solid #20005d;
+    color: #e8dcff;
+    background-color: #7b06f8;
+    width: 33.33%;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px 0 0 0;
+    margin: 5px;
+}
+
+.featureboxMD {
+    border: 2px solid #20005d;
+    color: #d7c2fd;
+    background-color: #58287F;
+    width: 33.33%;
+    padding: 20px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.featureboxBR {
+    border: 2px solid #20005d;
+    color: #e8dcff;
+    background-color: #7b06f8;
+    width: 33.33%;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 0 0 20px 0;
+    margin: 5px;
+}
+
+.rightSide {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.TokenCard {
+    background: linear-gradient(45deg, #d0d4ff, #c0fffb, #eaabff);
+
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 10px 0;
+    border: 2px solid rgb(194, 194, 254);
+}
+
+.tokenimage {
+    height: 50px;
+    width: 50px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 100px;
+    margin: 0 10px 0 0;
+}
+
+.TokenLogo {
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tokenbutton {
+    border-radius: 50px;
+    background-color: rgb(194, 255, 189);
+    color: rgb(31, 31, 31);
+    font-size: 18px;
+    padding: 0 10px;
+    border: 1px solid grey;
+
+
+}
+
+.TokenLogo h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 10px;
+}
+
+.TokenAddress {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding: 0 20px;
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+
+.Cryptoname {
+    font-size: 56px;
+}
+
+
+.Inputsection {
+    padding: 20px;
+    background: linear-gradient(-45deg, rgb(247, 199, 199), rgb(183, 247, 184), rgb(197, 197, 251));
+    border: 0px solid green;
+    border-radius: 10px;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #a372ed;
+}
+
+.Inputsection input {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #ffffffb3;
+    color: rgb(0, 0, 0);
+    border: 0px solid rgb(255, 170, 0);
+    margin: 10px 0;
+}
+
+.selfclosingDiv {
+    border: 1px solid rgb(158, 0, 186);
+    margin: 10px 0;
+}
+
+.sendButton {
+    border: 0px solid rgb(232, 183, 6);
+    font-size: 20px;
+    background-color: rgb(255, 175, 175);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    transition: 0.5s;
+}
+
+.sendButton:hover {
+    background-color: rgb(148, 162, 255);
+    border: 0px solid rgb(255, 0, 0);
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+}
+
+.LoaderStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loadingImage {
+    width: 100px;
+    height: 100px;
+}
+
+.footerstyle {
+    /*background: linear-gradient(90deg, #040024, #16301a, #160000);*/
+
+    background-color: #3A1078;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin: 0px;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footerstyle p {
+    margin: 0px;
+}
+
+
+.servicesSection {
+    /*background: linear-gradient(90deg, #040024, #16301a, #160000);*/
+    background-image: url("./images/services-back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    padding: 50px;
+    flex-wrap: wrap;
+
+    border-width: 0px 0em 3px 0;
+    border-style: solid;
+    border-color: #c8a3f0;
+}
+
+.servicesSection h1 {
+    color: #754b9b;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 36px;
+    background-color: rgba(255, 255, 255, 0.851);
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #3b3486;
+}
+
+.services {
+    /*background: linear-gradient(90deg, #040024, #16301a, #160000);*/
+    background-color: rgba(255, 255, 255, 0.707);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    border: 2px solid #3b3486;
+}
+
+.servicebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c9eeffb0;
+    border: 3px solid rgb(28, 0, 54);
+    padding: 20px;
+    width: 300px;
+    border-radius: 20px 0 20px 0;
+    margin: 20px;
+}
+
+.servicebox img {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.servicebox h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3f4def;
+}
+
+.servicebox a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(143, 22, 236);
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.servicebox a:hover {
+    color: rgb(238, 88, 13);
+    transition: 0.5s;
+}
+
+/*transactions style*/
+
+.transactionArea {
+    /*background: linear-gradient(90deg, #040024, #16301a, #160000);*/
+    background-image: url("./images/background3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-color: #e5d1fa37;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    flex-wrap: wrap;
+
+    border-width: 0px 0em 3px 0;
+    border-style: solid;
+    border-color: #7b06f8;
+}
+
+.TransactionDets {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.647);
+    border-radius: 10px;
+    border: 2px solid #a372ed;
+}
+
+.TransactionDets a {
+    text-decoration: none;
+}
+
+.TransactionDets p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b3d3f6;
+    font-weight: bold;
+}
+
+.TransactionDets h2 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #45e45d;
+    font-weight: bold;
+}
+
+.TransactionCard {
+    margin: 50px;
+    background-color: #39016a;
+    background-image: url("./images/transactionback.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    max-width: 300px;
+    word-wrap: break-word;
+}
+
+.TransactionUpdater {
+    background-color: #e6ddf0b5;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    flex-wrap: wrap;
+    color: #3f227e;
+    border-radius: 20px;
+}
+
+.TransactionUpdater h1 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0px;
+    font-size: 50px;
+}
+
+.timestamp {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #24e2e2;
+    font-weight: bold;
+    background-color: #c39bf857;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.transactionInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
