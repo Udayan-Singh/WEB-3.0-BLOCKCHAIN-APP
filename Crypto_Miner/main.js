@@ -22,19 +22,20 @@ app.get('/stop-mining', (req, res) => {
 
 function startMining() {
     console.log("mining started")
-    miningInterval = setInterval(simulateMining, 2000);
+    miningInterval = setInterval(simulateMining, 10);
 }
 
 function stopMining() {
     clearInterval(miningInterval);
     console.log("mining stopped");
+    process.exit(0)
 }
 
 function simulateMining() {
-    let nonce = Math.floor(Math.random() * 1000000000);
-    let target = 10; // Difficulty target (in this example, set to 1 trillion)
+    let nonce = Math.floor(Math.random() * 10); // range can be changed according to difficulty.
+    let target = 10; // Difficulty target 
     const startTime = Date.now();
-    const maxDuration = 1 * 60 * 1000; 
+    const maxDuration = 2 * 60 * 1000; // max duration to run the function 
     //const targetCPUUsage = 0.7;
     let elapsed = 0
     let cpuUsage = 0
@@ -45,8 +46,8 @@ function simulateMining() {
         console.log(maxDuration)
 
         if(elapsed > maxDuration){
-            stopMining()
             console.log("TIMEOUT")
+            stopMining()
         }
 
         if(cpuUsage > 150){

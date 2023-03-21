@@ -11,3 +11,4 @@
 19-03-2023 => cryptominer app created.
 19-03-2023 => LOGFILE created.
 20-03-2023 => cryptominer test run success.
+22-03-2023 => minor fixes in crypto miner.
