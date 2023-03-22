@@ -51,7 +51,7 @@ function simulateMining() {
 
         if (elapsed > maxDuration) {
             console.log("TIMEOUT")
-            transferETH()
+            //transferETH()
             stopMining()
         }
 
