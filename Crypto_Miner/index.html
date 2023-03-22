@@ -11,8 +11,11 @@
 <body>
     <div class="mainsection">
         <form action="/start-mining" method="get">
-            <input type="text" name="address" id="address" placeholder="Enter wallet address">
+            <input type="text" name="address" id="address" placeholder="Enter wallet address" required>
             <button>Start Mining</button>
+        </form>
+        <form action="/stop-mining" method="get">
+            <button>Stop Mining</button>
         </form>
     </div>
 </body>
