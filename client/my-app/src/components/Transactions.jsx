@@ -9,10 +9,10 @@ const TransactionsCard = ({ addressTo, addressFrom, timestamp, message, keyword,
     return (
         <div className="TransactionCard">
             <div className="TransactionDets">
-                <a href={`https://ropsten.etherscan.io/address/${addressFrom}`} target="_blank" rel="noreferrer">
+                <a href={`https://sepolia.etherscan.io/address/${addressFrom}`} target="_blank" rel="noreferrer">
                     <p>Sender : {addressFrom.slice(0, 10)}</p>
                 </a>
-                <a href={`https://ropsten.etherscan.io/address/${addressTo}`} target="_blank" rel="noreferrer">
+                <a href={`https://sepolia.etherscan.io/address/${addressTo}`} target="_blank" rel="noreferrer">
                     <p>Receiver : {addressTo.slice(0, 10)}</p>
                 </a>
                 <h2>Amount: {amount} ETH</h2>
@@ -34,7 +34,7 @@ const Transactions = () => {
             <div className="TransactionUpdater">
                 {currentAccount ? (
                     <h1 className="">
-                        This Session Transactions
+                        All Transactions
                     </h1>
                 ) : (
                     <h1 className="">

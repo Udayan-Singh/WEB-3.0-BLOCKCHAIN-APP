@@ -86,7 +86,7 @@ const Welcome = () => {
                         onClick={handleSubmit}
                         className="sendButton"
                     >
-                        send
+                        Send Ethereum
                     </button>
                 )}
             </div>

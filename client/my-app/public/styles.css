@@ -295,21 +295,22 @@ h1 {
 }
 
 .sendButton {
-    border: 0px solid rgb(232, 183, 6);
+    border: 3px solid rgb(255, 144, 144);
     font-size: 20px;
     background-color: rgb(255, 175, 175);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 10px;
     margin: 10px 0;
     transition: 0.5s;
+    font-weight: bold;
 }
 
 .sendButton:hover {
     background-color: rgb(148, 162, 255);
-    border: 0px solid rgb(255, 0, 0);
+    border: 3px solid rgb(118, 136, 249);
     transition: 0.5s;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .LoaderStyle {
@@ -475,10 +476,12 @@ h1 {
     background-color: #e6ddf0b5;
     align-items: center;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
     flex-wrap: wrap;
     color: #3f227e;
     border-radius: 20px;
+    height: 70vh;
+    overflow: auto;
 }
 
 .TransactionUpdater h1 {
