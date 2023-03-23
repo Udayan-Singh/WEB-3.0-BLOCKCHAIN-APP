@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.loadingscreen{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fetching{
+  font-size: 48px;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  width: auto;
+  padding: 5px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+th{
+  border: 1px solid #110036;
+  background-color: #3A1078;
+  color: white;
+  font-size: 18px;
+  padding: 5px 20px;
+}
+
+td{
+  border: 1px solid #cab6f6;
+  font-size: 15px;
+  padding: 0 30px;
+}
+
+.additional{
+  background-color: #E5E0FF;
+  color: rgb(38, 0, 0);
+}
+
+.logo{
+  background-color: #E5E0FF;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img{
+  width: 20px;
+  height: 20px;
+}
+
+.coinName{
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #AEE2FF;
+}
+
+.symbolName{
+  background-color: #B9F3E4;
+  font-weight: bold;
+}
+
+.prices{
+  font-weight: bold;
+  background-color: #F6F7C1;
+}
+.Gprices{
+  font-weight: bold;
+  background-color: #c1fcbe;
+}
