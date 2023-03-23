@@ -1,0 +1,77 @@
+html,
+body {
+    margin: 0px;
+    background-color: #18003b;
+    /*background: url("https://wallpapercave.com/wp/wp2322150.jpg");*/
+    /*background-image: url("../background.png");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    overflow: hidden;
+}
+
+.mainsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    /*background-color: rgba(0, 0, 0, 0.432);*/
+}
+
+.formarea {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+}
+
+.formarea p {
+    text-align: center;
+    margin: 10px 20px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(210, 190, 254);
+    /*background-color: rgba(0, 0, 0, 0.451);*/
+}
+
+.balance input {
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px 0 0 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+}
+
+.balance button {
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 0 20px 20px 0;
+    background-color: #cac8f7;
+    transition: 0.5s;
+    border: 2px solid white;
+}
+
+.balance button:hover {
+    background-color: #f98282;
+    transition: 0.5s;
+}
+
+.heading h2 {
+    text-align: center;
+    margin: 20px 20px;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(224, 170, 253);
+}
+
+.single {
+    border: 2px solid rgb(224, 156, 255);
+    width: 100%;
+}
+
+.balancetext h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgb(255, 92, 92);
+}

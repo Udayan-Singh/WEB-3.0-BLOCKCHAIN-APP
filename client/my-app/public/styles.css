@@ -19,7 +19,7 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     /*background: linear-gradient(90deg, #040024, #16301a, #160000);*/
-    background-image: url("https://wallpapercave.com/dwp1x/wp4788926.jpg");
+    background-image: url("./images/background2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -327,7 +327,7 @@ h1 {
 .footerstyle {
     /*background: linear-gradient(90deg, #040024, #16301a, #160000);*/
 
-    background-color: #3A1078;
+    background-color: #170138;
     color: white;
     font-size: 18px;
     text-align: center;
@@ -419,7 +419,7 @@ h1 {
 
 .transactionArea {
     /*background: linear-gradient(90deg, #040024, #16301a, #160000);*/
-    background-image: url("./images/background3.jpg");
+    background-image: url("./images/background2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -473,12 +473,12 @@ h1 {
 }
 
 .TransactionUpdater {
-    background-color: #e6ddf0b5;
+    background-color: #14012eb5;
     align-items: center;
     text-align: center;
     padding: 20px;
     flex-wrap: wrap;
-    color: #3f227e;
+    color: #cebcf4;
     border-radius: 20px;
     height: 70vh;
     overflow: auto;

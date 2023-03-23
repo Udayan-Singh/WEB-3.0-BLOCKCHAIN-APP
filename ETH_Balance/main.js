@@ -6,7 +6,7 @@ require("dotenv").config();
 const app = express();
 const port = 4000;
 app.set('view engine', 'ejs');
-
+app.use(express.static('public'));
 
 
 app.get("/", (req, res) => {
@@ -21,7 +21,7 @@ app.get('/M-balance/:address', (req, res) => {
             res.send(error);
         } else {
             const balance = M_web3.utils.fromWei(wei, 'ether');
-            res.render("index", {Name:address, Balance:balance})
+            res.render("index", { Name: address, Balance: balance })
             /*res.send(`Balance of ${address}: ${balance} ETH`);*/
         }
     });
@@ -36,7 +36,7 @@ app.get('/G-balance/:address', (req, res) => {
             res.send(error);
         } else {
             const balance = G_web3.utils.fromWei(wei, 'ether');
-            res.render("index", {Name:address, Balance:balance})
+            res.render("index", { Name: address, Balance: balance })
             //res.send(`Balance of ${address}: ${balance} ETH`);
         }
     });
@@ -51,10 +51,14 @@ app.get('/S-balance/:address', (req, res) => {
             res.send(error);
         } else {
             const balance = S_web3.utils.fromWei(wei, 'ether');
-            res.render("index", {Name:address, Balance:balance})
+            res.render("index", { Name: address, Balance: balance })
             //res.send(`Balance of ${address}: ${balance} ETH`);
         }
     });
+});
+
+app.use((req, res, next) => {
+    res.status(404).render("errorpage");
 });
 
 app.listen(port, () => {
