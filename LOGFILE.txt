@@ -2,7 +2,7 @@
 // just for easier access.
 
 LAST MODIFICATION : 24-03-2023 
-INTREGRITY : STABLE
+INTEGRITY : STABLE
 
 17-03-2023 => client app created.
 18-03-2023 => smart_contract created.
