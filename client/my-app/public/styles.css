@@ -32,7 +32,7 @@ h1 {
     border-width: 0px 0em 3px 0;
     border-style: solid;
     border-color: #394aff;
-    padding: 1%;
+    padding: 5px;
 }
 
 .navbar-logo {
@@ -84,12 +84,17 @@ h1 {
     background-size: cover;
 
     background-color: #E5E0FF;
-    display: flex;
+    
     justify-content: space-evenly;
     align-items: center;
     border-width: 0px 0em 3px 0;
     border-style: solid;
     border-color: #a94dc8;
+}
+
+.middlepart{
+    display: flex;
+    background-color: rgba(29, 0, 44, 0.337);
 }
 
 @media only screen and (max-width: 1350px){
@@ -120,7 +125,6 @@ h1 {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.363);
     color: white;
     margin: 0;
     height: auto;
@@ -128,7 +132,7 @@ h1 {
     padding: 30px;
     margin: 20px;
     border-radius: 20px;
-    border: 3px solid #ffffff;
+    border: 0px solid #ffffff;
 }
 
 .welcometext {
@@ -141,7 +145,7 @@ h1 {
 
 .greetingstext {
     margin: 20px;
-    color: #9effe3;
+    color: #e4fff7;
     width: 600px;
     font-size: 28px;
     font-weight: bold;
@@ -153,7 +157,7 @@ h1 {
     color: rgb(255, 255, 255);
     padding: 0 20px;
     border-radius: 10px;
-    border: 0px solid transparent;
+    border: 2px solid white;
     transition: 0.5s;
 }
 
@@ -181,7 +185,7 @@ h1 {
 .featureboxTL {
     border: 2px solid #ffffff;
     color: #e8dcff;
-    background-color: #7b06f8;
+    background-color: #2e017c;
     width: 33.33%;
     padding: 20px;
     font-size: 20px;
@@ -192,7 +196,7 @@ h1 {
 .featureboxMD {
     border: 2px solid #ffffff;
     color: #fbf9ff;
-    background-color: #300057;
+    background-color: #2e017c;
     width: 33.33%;
     padding: 20px;
     font-size: 20px;
@@ -202,7 +206,7 @@ h1 {
 .featureboxBR {
     border: 2px solid #ffffff;
     color: #e8dcff;
-    background-color: #7b06f8;
+    background-color: #2e017c;
     width: 33.33%;
     padding: 20px;
     font-size: 20px;
@@ -487,11 +491,11 @@ h1 {
     transition: 0.5s;
 }
 
-.TransactionCard:hover{
+/*.TransactionCard:hover{
     box-shadow: 10px 10px rgb(215, 36, 255);
     transition: 0.5s;
 }
-
+*/
 .TransactionUpdater {
     background-color: #ffffff3b;
     align-items: center;

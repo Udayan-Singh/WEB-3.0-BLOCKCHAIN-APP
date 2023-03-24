@@ -5,12 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 ::-webkit-scrollbar {
   width: 0px;
-  background: transparent; /* make scrollbar transparent */
+  background: transparent;
+  /* make scrollbar transparent */
 }
 
 code {
@@ -18,14 +20,14 @@ code {
     monospace;
 }
 
-.loadingscreen{
+.loadingscreen {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.fetching{
+.fetching {
   font-size: 48px;
   text-align: center;
 }
@@ -36,57 +38,79 @@ td {
   width: auto;
   padding: 5px;
   text-align: center;
-  border-collapse: collapse;
+  border-collapse:collapse;
 }
 
-th{
-  border: 1px solid #110036;
+th {
+  border-width: 0 0 5px 0;
+  border-style: solid;
+  border-color: #cab6f6;
+
   background-color: #3A1078;
   color: white;
   font-size: 18px;
   padding: 5px 20px;
 }
 
-td{
-  border: 1px solid #cab6f6;
+td {
+  border-width: 0 0 3px 0;
+  border-style: solid;
+  border-color: #cab6f6;
+
   font-size: 15px;
   padding: 0 30px;
 }
 
-.additional{
-  background-color: #E5E0FF;
+.additional {
+  background-color: #f9f8ff;
   color: rgb(38, 0, 0);
+  font-size: 15px;
 }
 
-.logo{
-  background-color: #E5E0FF;
+.logo {
+  border-width: 0 0 2px 0;
+  border-style: solid;
+  border-color: #cab6f6;
+
+  background-color: #ffffff;
   padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.logo img{
-  width: 20px;
-  height: 20px;
+.logo img {
+  width: auto;
+  height: auto;
 }
 
-.coinName{
+.coinName {
   font-size: 15px;
   font-weight: bold;
   background-color: #AEE2FF;
 }
 
-.symbolName{
+.symbolName {
   background-color: #B9F3E4;
   font-weight: bold;
 }
 
-.prices{
+.prices {
   font-weight: bold;
-  background-color: #F6F7C1;
+  background-color: #c1e1f7;
 }
-.Gprices{
+
+.Gprices {
   font-weight: bold;
   background-color: #c1fcbe;
+}
+
+.Rprices {
+  font-weight: bold;
+  background-color: #ff0000;
+  color: white;
+}
+
+.newrow{
+  margin: 10px 0;
 }

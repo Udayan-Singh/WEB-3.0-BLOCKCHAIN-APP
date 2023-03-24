@@ -46,7 +46,7 @@ export default function App() {
           <th>24 hr Low (₹)</th>
         </tr>
         {data.map((data) => (
-          <tr>
+          <tr className="newrow">
             <td className="logo">
               <img src={data.image.small} alt={data.name} />
             </td>
@@ -54,8 +54,10 @@ export default function App() {
             <td className="symbolName">{data.symbol.toUpperCase()}</td>
             <td className="prices">{data.market_data.current_price.usd}</td>
             <td className="prices">{data.market_data.current_price.inr}</td>
+
             <td className="Gprices">{Math.floor(data.market_data.price_change_24h_in_currency.usd)}</td>
             <td className="Gprices">{Math.floor(data.market_data.price_change_24h_in_currency.inr)}</td>
+
             <td className="additional">{data.market_data.high_24h.usd}</td>
             <td className="additional">{data.market_data.high_24h.inr}</td>
             <td className="additional">{data.market_data.low_24h.usd}</td>
