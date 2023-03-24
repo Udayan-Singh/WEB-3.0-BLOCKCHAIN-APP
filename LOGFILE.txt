@@ -17,4 +17,4 @@ INTEGRITY : STABLE
 23-02-2023 => transactions fixed.
 23-03-2023 => prices folder created using react.
 23-03-2023 => prices test run success.
-24-03-2024 => forder rename completed.
+24-03-2024 => folder rename completed.
