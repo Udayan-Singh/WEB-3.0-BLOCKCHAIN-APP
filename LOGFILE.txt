@@ -1,6 +1,8 @@
 // log file to store edits...
 // just for easier access.
-// Timeline : 
+
+LAST MODIFICATION : 24-03-2023 
+INTREGRITY : STABLE
 
 17-03-2023 => client app created.
 18-03-2023 => smart_contract created.
@@ -12,3 +14,7 @@
 19-03-2023 => LOGFILE created.
 20-03-2023 => cryptominer test run success.
 22-03-2023 => minor fixes in crypto miner.
+23-02-2023 => transactions fixed.
+23-03-2023 => prices folder created using react.
+23-03-2023 => prices test run success.
+24-03-2024 => forder rename completed.
