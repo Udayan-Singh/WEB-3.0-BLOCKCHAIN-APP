@@ -12,7 +12,7 @@ const Services = () => {
             <div className="servicebox">
                 <img src={cryptograph} alt="market icon"></img>
                 <h2>See the latest trends</h2>
-                <a href="https://www.coingecko.com/" target="_blank" rel="noreferrer">View Prices</a>
+                <a href="http://localhost:4500/" target="_blank" rel="noreferrer">View Prices</a>
             </div>
 
             <div className="servicebox">
@@ -36,7 +36,7 @@ const Services = () => {
             <div className="servicebox">
                 <img src={GETH} alt="market icon"></img>
                 <h2>Get Test Ethereum</h2>
-                <a href="https://goerlifaucet.com/" target="_blank" rel="noreferrer">Get Goerli Test ETH</a>
+                <a href="https://sepoliafaucet.com/" target="_blank" rel="noreferrer">Get Sepolia Test ETH</a>
             </div>
 
             <div className="servicebox">

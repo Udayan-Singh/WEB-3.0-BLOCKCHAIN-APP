@@ -31,7 +31,7 @@ const Welcome = () => {
 
     return (<div className="MainSection">
         <div className="welcomeStyle">
-            <h1 className="welcometext">Process Ethereum with elegance...</h1>
+            <h1 className="welcometext">Transfer Ethereum with elegance...</h1>
             <p className="greetingstext">Easy and Secure way to send ETHEREUM</p>
             {!currentAccount && (<button
                 type="button"

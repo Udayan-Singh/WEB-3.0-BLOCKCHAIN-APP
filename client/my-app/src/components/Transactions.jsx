@@ -38,7 +38,7 @@ const Transactions = () => {
                     </h1>
                 ) : (
                     <h1 className="">
-                        Connect your account to see this your transactions
+                        Connect your account to see all your transactions
                     </h1>
                 )}
 
