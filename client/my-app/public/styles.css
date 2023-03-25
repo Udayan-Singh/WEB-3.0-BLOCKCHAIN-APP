@@ -18,20 +18,20 @@ h1 {
 .navbar {
     display: flex;
     justify-content: space-evenly;
-    background: linear-gradient(90deg, #6B76FF, #A5AEFF, #C8E4FE);
+    /*background: linear-gradient(90deg, #6B76FF, #A5AEFF, #C8E4FE);*/
     /*background-image: url("./images/background2.jpg");*/
     background-size: cover;
     background-repeat: no-repeat;
 
-    background-color: #fffeff;
-    color: #2e017c;
+    background-color: #18122B;
+    color: #e3d5fb;
     margin: 0;
     height: auto;
     align-items: center;
 
     border-width: 0px 0em 3px 0;
     border-style: solid;
-    border-color: #394aff;
+    border-color: #3b2e66;
     padding: 5px;
 }
 
@@ -94,7 +94,7 @@ h1 {
 
 .middlepart{
     display: flex;
-    background-color: rgba(29, 0, 44, 0.337);
+    background-color: rgba(29, 0, 44, 0.668);
 }
 
 @media only screen and (max-width: 1350px){
@@ -153,16 +153,17 @@ h1 {
 }
 
 .wlecome-button {
-    background-color: #6e2ad3;
+    background-color: #49d32a7e;
     color: rgb(255, 255, 255);
     padding: 0 20px;
     border-radius: 10px;
     border: 2px solid white;
     transition: 0.5s;
+    margin: 10px 0;
 }
 
 .wlecome-button:hover {
-    background-color: #3A1078;
+    background-color: #10782070;
     color: white;
     transition: 0.5s;
 }
@@ -174,7 +175,7 @@ h1 {
 
 .welcomefeatures {
     width: 60%;
-    margin: 50px 0;
+    margin: 20px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -184,8 +185,8 @@ h1 {
 
 .featureboxTL {
     border: 2px solid #ffffff;
-    color: #e8dcff;
-    background-color: #2e017c;
+    color: #f9f6ff;
+    background-color: #37005e6f;
     width: 33.33%;
     padding: 20px;
     font-size: 20px;
@@ -196,7 +197,7 @@ h1 {
 .featureboxMD {
     border: 2px solid #ffffff;
     color: #fbf9ff;
-    background-color: #2e017c;
+    background-color: #37005e6f;
     width: 33.33%;
     padding: 20px;
     font-size: 20px;
@@ -205,8 +206,8 @@ h1 {
 
 .featureboxBR {
     border: 2px solid #ffffff;
-    color: #e8dcff;
-    background-color: #2e017c;
+    color: #fbf9ff;
+    background-color: #37005e6f;
     width: 33.33%;
     padding: 20px;
     font-size: 20px;
