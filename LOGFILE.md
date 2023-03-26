@@ -1,8 +1,16 @@
 // log file to store edits...
 // just for easier access.
-
-LAST MODIFICATION : 24-03-2023 
-<p style="color:green;"> INTEGRITY : STABLE </p>
+ 
+```diff
++ LAST MODIFICATION : 26-03-2023
+- INTEGRITY : UNSTABLE
+- PROJECT STATUS : INCOMPLETE
++ APP CHECKS : 3/4 OK
++ FAILED APPS : 0
+- PARTIALLY RUNNING APPS : 1
+- MEMORY LEAK ISSUE : FOUND IN MINER APP
++ UI BUGS : NONE
+```
 
 17-03-2023 => client app created.
 18-03-2023 => smart_contract created.
@@ -20,4 +28,4 @@ LAST MODIFICATION : 24-03-2023
 24-03-2023 => folder rename completed.
 25-03-2023 => Ui Fixes.
 26-03-2023 => Miner app frontend created.
-26-03-2023 => miner app integrity partially stable.
+26-03-2023 => miner app integrity unstable.
