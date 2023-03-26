@@ -1,3 +1,7 @@
+```diff
++ PLEASE CHECK LOGFILE
+```
+
 THIS A WEB 3.0 APP FOR HAVE MULTIPLE FEATURES
 
 NOTE : localhost 3000, localhost 4000 , localhost 3500 in use ! 
