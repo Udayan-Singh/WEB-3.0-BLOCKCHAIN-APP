@@ -9,11 +9,16 @@ body {
   background-color: #393053;
 }
 
-/*::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 0px;
-  background: transparent;
-  /* make scrollbar transparent 
-}*/
+  background: #393053;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #9e7ff5;
+  border-radius: 20px;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -37,10 +42,11 @@ code {
 table,
 th,
 td {
-  width: auto;
+  min-width: auto;
   padding: 5px;
   text-align: center;
   border-collapse: collapse;
+  word-wrap: normal;
 }
 
 th {
@@ -75,6 +81,7 @@ td {
 }
 
 .logo {
+  min-width: none;
   border-width: 0 0 2px 0;
   border-style: solid;
   border-color: #191825;

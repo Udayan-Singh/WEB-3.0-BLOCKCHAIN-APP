@@ -48,13 +48,13 @@ export default function App() {
           <th>Price ($)</th>
           <th>Price (₹)</th>
 
-          <th>Market Cap($)</th>
-          <th>Market Cap(₹)</th>
+          <th>Market Cap ($)</th>
+          <th>Market Cap (₹)</th>
 
-          <th>Change 24h ($)</th>
-          <th>Change 24h (₹)</th>
-          <th>24h High ($)</th>
-          <th>24h High (₹)</th>
+          <th>Change_24h_($)</th>
+          <th>Change_24h_(₹)</th>
+          <th>24h_High_($)</th>
+          <th>24h_High_(₹)</th>
           <th>24h Low ($)</th>
           <th>24h Low (₹)</th>
 
