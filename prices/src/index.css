@@ -1,23 +1,22 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
   overflow-y: scroll;
   background-color: #393053;
 }
 
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
   width: 0px;
   background: transparent;
-  /* make scrollbar transparent */
-}
+  /* make scrollbar transparent 
+}*/
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -41,7 +40,7 @@ td {
   width: auto;
   padding: 5px;
   text-align: center;
-  border-collapse:collapse;
+  border-collapse: collapse;
 }
 
 th {
@@ -49,13 +48,13 @@ th {
   border-style: solid;
   border-color: #191825;
 
-  background-color: #18122B;
+  background-color: #18122b;
   color: white;
   font-size: 18px;
   padding: 10px 20px;
 }
 
-.stickyHead{
+.stickyHead {
   position: sticky;
   top: 0;
 }
@@ -107,22 +106,27 @@ td {
 
 .prices {
   font-weight: bold;
-  background-color: #443C68;
-  color: #16FF00;
+  background-color: #393053;
+  color: #baff95;
 }
 
 .Gprices {
   font-weight: bold;
   background-color: #393053;
-  color: #0acfc8;
+  color: #31cf0a;
 }
 
 .Rprices {
   font-weight: bold;
-  background-color: #ff0000;
-  color: white;
+  background-color: #393053;
+  color: rgb(251, 4, 4);
 }
 
-.newrow{
+.newrow {
   margin: 10px 0;
+}
+
+.marketcap{
+  color: rgb(151, 255, 252);
+  font-weight: bold;
 }
