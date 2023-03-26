@@ -3,20 +3,53 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mine ethereum</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <div class="mainsection">
-        <form action="/start-mining" method="get">
-            <input type="text" name="address" id="address" placeholder="Enter wallet address" required>
-            <button>Start Mining</button>
-        </form>
-        <form action="/stop-mining" method="get">
-            <button>Stop Mining</button>
-        </form>
+        <div class="formarea">
+            <img src="./images/giphy.gif" alt="gif">
+            <form action="/start-mining" method="get" class="form_style">
+                <input type="text" name="address" id="address" placeholder="Enter wallet address" required>
+                <button>Start Mining</button>
+            </form>
+        </div>
+        <div class="warning">
+            <div class="paragraph">
+                <p style="color:red;">Warning : Running for longer time may cause overheating of the system. The mining will start on
+                    clicking start. Mining will stop automatically after 1 minute. Monitor your cpu using Task manager.
+                </p>
+                <p>This is a mining simulation app. This uses the SHA-256 algorithm. The SHA-256 (Secure Hash Algorithm
+                    256-bit) is a cryptographic hash function that generates a fixed-length output (256 bits) for any
+                    given input message. It is widely used in various security applications such as digital signatures,
+                    password storage, and blockchain technology.
+
+                    To compute the hash value of a message using the SHA-256 algorithm, the message is first processed
+                    through a series of compression functions that transform the input data into a fixed-size output.
+                    The resulting hash value is unique to the input data, and even a small change in the input will
+                    produce a completely different hash value.
+
+                    The SHA-256 algorithm also employs the concept of a "nonce," which stands for "number only used
+                    once." A nonce is a random number that is added to the input message to create a unique input value
+                    for the hash function. The purpose of the nonce is to prevent attackers from predicting the hash
+                    output by altering the input data.
+
+                    In the context of blockchain technology, the nonce is used in the process of mining new blocks.
+                    Miners must find a nonce value that, when combined with the contents of the block and hashed with
+                    the SHA-256 algorithm, produces a hash value that meets a specific target criteria. The process of
+                    finding a suitable nonce value requires a lot of computational effort, and the first miner to find a
+                    valid nonce is rewarded with newly minted cryptocurrency.
+
+                    In summary, the SHA-256 algorithm is a widely used cryptographic hash function that generates a
+                    unique fixed-length output for any given input message. A nonce is a random number used to create a
+                    unique input for the hash function, which helps prevent attacks and is also used in the process of
+                    mining new blocks in blockchain technology. </p>
+            </div>
+        </div>
     </div>
 </body>
 

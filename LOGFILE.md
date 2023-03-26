@@ -2,7 +2,7 @@
 // just for easier access.
 
 LAST MODIFICATION : 24-03-2023 
-INTEGRITY : STABLE
+<p style="color:green;"> INTEGRITY : STABLE </p>
 
 17-03-2023 => client app created.
 18-03-2023 => smart_contract created.
@@ -17,4 +17,7 @@ INTEGRITY : STABLE
 23-02-2023 => transactions fixed.
 23-03-2023 => prices folder created using react.
 23-03-2023 => prices test run success.
-24-03-2024 => folder rename completed.
+24-03-2023 => folder rename completed.
+25-03-2023 => Ui Fixes.
+26-03-2023 => Miner app frontend created.
+26-03-2023 => miner app integrity partially stable.
