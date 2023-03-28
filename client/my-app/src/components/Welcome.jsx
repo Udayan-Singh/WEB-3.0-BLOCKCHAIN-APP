@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import etherium from '../Image/etherium.png'
 import Loader from '../components/Loader.jsx'
 import { TransactionContext } from '../context/TransactionContext'
+import Navbar from "./Navbar";
 
 
 
@@ -30,10 +31,12 @@ const Welcome = () => {
     };
 
     return (<div className="MainSection">
+        <Navbar />
         <div className="middlepart">
+
             <div className="welcomeStyle">
                 <h1 className="welcometext">Transfer Ethereum with elegance...</h1>
-                <p className="greetingstext">Easy and Secure way to send ETHEREUM</p>
+                <p className="greetingstext">Send Ethereum over the blockchain</p>
                 {!currentAccount && (<button
                     type="button"
                     onClick={connectWallet}

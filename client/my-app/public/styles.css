@@ -1,58 +1,86 @@
 html,
 body {
     margin: 0px;
-    background-color: #ffffff;
+    background-color: #170138;
 }
 
 h1 {
     font-family: arial;
 }
 
-.navbar-top {
+.navjoin {
+    display: flex;
+    height: 100vh;
+}
+
+/*.navbar-top {
     background-color: black;
     color: white;
     margin: 0px;
     padding: 19px;
-}
+}*/
 
 .navbar {
+    width: 10%;
+
     display: flex;
-    justify-content: space-evenly;
-    /*background: linear-gradient(90deg, #6B76FF, #A5AEFF, #C8E4FE);*/
+    flex-direction: column;
+    justify-content: start;
+    background: linear-gradient(180deg, #050011bc, #152100cd, #150125cd);
     /*background-image: url("./images/background2.jpg");*/
     background-size: cover;
     background-repeat: no-repeat;
 
-    background-color: #18122B;
+    /*background-color: #18122b67;*/
     color: #e3d5fb;
-    margin: 0;
+    margin: 10px;
     height: auto;
     align-items: center;
 
-    border-width: 0px 0em 3px 0;
+    /*border-width: 3px;
     border-style: solid;
-    border-color: #3b2e66;
+    border-color: #e2d9ff;*/
+    border-radius: 20px;
     padding: 5px;
 }
 
 .navbar-logo {
-    height: 80px;
-    width: 160px;
-    margin: 0 20px;
+    height: 60px;
+    width: 120px;
+    margin: 20px;
     border-radius: 20px;
 }
 
 .flatenn {
-    display: flex;
     align-items: center;
+    padding: 0px;
 }
 
 .listStyle {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
     font-size: 26px;
     font-family: Arial, Helvetica, sans-serif;
     list-style-type: none;
-    margin: 20px 40px;
+    margin: 20px;
+}
+
+.listStyle a {
+    display: flex;
+    color: #d0d4ff;
+    text-decoration: none;
+    margin: 20px 0;
     transition: 0.5s;
+    writing-mode: vertical-rl;
+    align-items: center;
+}
+
+.listStyle a:hover {
+    margin-right: -10px;
+    transition: 0.5s;
+    overflow-wrap: inherit;
+    color: #a372ed;
 }
 
 /*.listStyle:hover {
@@ -82,36 +110,42 @@ h1 {
     background-image: url("./images/background4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 
     background-color: #E5E0FF;
-    
+
     justify-content: space-evenly;
     align-items: center;
     border-width: 0px 0em 3px 0;
     border-style: solid;
     border-color: #a94dc8;
-}
-
-.middlepart{
     display: flex;
-    background-color: rgba(29, 0, 44, 0.668);
 }
 
-@media only screen and (max-width: 1350px){
-    .MainSection{
+.middlepart {
+    display: flex;
+    background-color: rgba(18, 0, 27, 0.848);
+    margin: 0 10px 0 0;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 1350px) {
+    .MainSection {
         flex-direction: column;
     }
-    
+
 }
-@media only screen and (max-width: 1000px){
-    .MainSection{
+
+@media only screen and (max-width: 1000px) {
+    .MainSection {
         flex-direction: column;
     }
 
     .listStyle {
         font-size: 20px;
     }
-    
+
     .navbar-logo {
         height: 80px;
         width: 160px;
@@ -127,11 +161,8 @@ h1 {
     text-align: center;
     color: white;
     margin: 0;
-    height: auto;
     align-items: center;
-    padding: 30px;
-    margin: 20px;
-    border-radius: 20px;
+    padding: 30px 30px 0 30px;
     border: 0px solid #ffffff;
 }
 
@@ -153,17 +184,17 @@ h1 {
 }
 
 .wlecome-button {
-    background-color: #49d32a7e;
+    background-color: #d87300;
     color: rgb(255, 255, 255);
     padding: 0 20px;
-    border-radius: 10px;
-    border: 2px solid white;
+    border-radius: 50px;
+    border: 0px solid white;
     transition: 0.5s;
     margin: 10px 0;
 }
 
 .wlecome-button:hover {
-    background-color: #10782070;
+    background-color: #c35b00;
     color: white;
     transition: 0.5s;
 }
@@ -171,6 +202,7 @@ h1 {
 .button-text {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
 }
 
 .welcomefeatures {
@@ -184,35 +216,53 @@ h1 {
 }
 
 .featureboxTL {
-    border: 2px solid #ffffff;
+    border: 2px solid #5d008b;
     color: #f9f6ff;
-    background-color: #37005e6f;
+    background-color: #320059da;
     width: 33.33%;
     padding: 20px;
     font-size: 20px;
     border-radius: 20px 0 0 0;
     margin: 5px;
+    transition: 0.5s;
 }
 
 .featureboxMD {
-    border: 2px solid #ffffff;
-    color: #fbf9ff;
-    background-color: #37005e6f;
+    border: 2px solid #5d008b;
+    color: #f9f6ff;
+    background-color: #320059da;
     width: 33.33%;
     padding: 20px;
     font-size: 20px;
     margin: 5px;
+    transition: 0.5s;
 }
 
 .featureboxBR {
-    border: 2px solid #ffffff;
-    color: #fbf9ff;
-    background-color: #37005e6f;
+    border: 2px solid #5d008b;
+    color: #f9f6ff;
+    background-color: #320059da;
     width: 33.33%;
     padding: 20px;
     font-size: 20px;
     border-radius: 0 0 20px 0;
     margin: 5px;
+    transition: 0.5s;
+}
+
+.featureboxTL:hover{
+    box-shadow: 0 0 10px rgb(216, 182, 255);
+    transition: 0.5s;
+}
+
+.featureboxMD:hover{
+    box-shadow: 0 0 10px rgb(216, 182, 255);
+    transition: 0.5s;
+}
+
+.featureboxBR:hover{
+    box-shadow: 0 0 10px rgb(216, 182, 255);
+    transition: 0.5s;
 }
 
 .rightSide {
@@ -225,20 +275,25 @@ h1 {
 }
 
 .TokenCard {
-    background: linear-gradient(45deg, #d0d4ff, #c0fffb, #eaabff);
+    /*background: linear-gradient(45deg, #d0d4ff, #c0fffb, #eaabff);*/
+    background-image: url("./images/background2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: rgb(255, 255, 255);
 
     display: flex;
     flex-direction: column;
     border-radius: 10px;
     justify-content: center;
     margin: 10px 0;
-    border: 2px solid rgb(194, 194, 254);
+    border: 2px solid rgb(130, 0, 200);
 }
 
 .tokenimage {
     height: 50px;
     width: 50px;
-    border: 3px solid rgb(0, 0, 0);
+    border: 3px solid rgb(219, 165, 255);
     border-radius: 100px;
     margin: 0 10px 0 0;
 }
@@ -276,6 +331,10 @@ h1 {
     border-radius: 10px;
 }
 
+.TokenAddress h2{
+    color: #80f9ff;
+}
+
 .Cryptoname {
     font-size: 56px;
 }
@@ -283,34 +342,42 @@ h1 {
 
 .Inputsection {
     padding: 20px;
-    background: linear-gradient(-45deg, rgb(247, 199, 199), rgb(183, 247, 184), rgb(197, 197, 251));
+    /*background: linear-gradient(-45deg, rgb(247, 199, 199), rgb(183, 247, 184), rgb(197, 197, 251));*/
+    background: linear-gradient(45deg, #0d0a18af, #090023b4, #00190bad);
     border: 0px solid green;
     border-radius: 10px;
-    margin: 30px 0;
+    margin: 40px 0;
     display: flex;
     flex-direction: column;
-    border: 3px solid #a372ed;
+    box-shadow: 0 0 20px rgb(115, 0, 169);
 }
 
 .Inputsection input {
     padding: 10px;
     font-size: 20px;
     border-radius: 10px;
-    background-color: #ffffffb3;
-    color: rgb(0, 0, 0);
-    border: 0px solid rgb(255, 170, 0);
+    background-color: #02020260;
+    color: rgb(209, 154, 255);
+    border: 2px solid #27045d;
     margin: 10px 0;
 }
 
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(128, 0, 255);
+    opacity: 1;
+    /* Firefox */
+}
+
 .selfclosingDiv {
-    border: 1px solid rgb(158, 0, 186);
+    border: 1px solid rgb(133, 0, 204);
     margin: 10px 0;
 }
 
 .sendButton {
-    border: 3px solid rgb(255, 144, 144);
+    /*border: 3px solid rgb(255, 144, 144);*/
     font-size: 20px;
-    background-color: rgb(255, 175, 175);
+    background-color: rgb(171, 112, 254);
     color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 10px;
@@ -320,8 +387,8 @@ h1 {
 }
 
 .sendButton:hover {
-    background-color: rgb(148, 162, 255);
-    border: 3px solid rgb(118, 136, 249);
+    background-color: rgb(139, 64, 252);
+    /*border: 3px solid rgb(118, 136, 249);*/
     transition: 0.5s;
     color: rgb(255, 255, 255);
 }
@@ -356,11 +423,11 @@ h1 {
 
 .servicesSection {
     /*background: linear-gradient(90deg, #040024, #16301a, #160000);*/
-    background-image: url("./images/services-back.png");
+    background-image: url("./images/services-back-2.png");
     background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
-    padding: 50px;
+    padding: 20px;
     flex-wrap: wrap;
 
     border-width: 0px 0em 3px 0;
@@ -369,26 +436,25 @@ h1 {
 }
 
 .servicesSection h1 {
-    color: #754b9b;
+    color: #dfbffb;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 36px;
-    background-color: rgba(255, 255, 255, 0.851);
-    padding: 20px;
+    font-size: 52px;
+    /*background-color: rgba(20, 19, 19, 0.397);*/
     border-radius: 20px;
-    border: 2px solid #3b3486;
+    /*border: 2px solid #3b3486;*/
 }
 
 .services {
     /*background: linear-gradient(90deg, #040024, #16301a, #160000);*/
-    background-color: rgba(255, 255, 255, 0.707);
+    background-color: rgba(27, 0, 43, 0.497);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 50px;
     flex-wrap: wrap;
     border-radius: 20px;
-    border: 2px solid #3b3486;
+    margin: 20px;
 }
 
 .servicebox {
@@ -396,8 +462,8 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #c9eeffb0;
-    border: 3px solid rgb(28, 0, 54);
+    background-color: #17002cd2;
+    border: 2px solid rgb(132, 0, 255);
     padding: 20px;
     width: 300px;
     border-radius: 20px 0 20px 0;
@@ -405,8 +471,8 @@ h1 {
     transition: 0.5s;
 }
 
-.servicebox:hover{
-    box-shadow: 5px 5px rgb(2, 54, 241);
+.servicebox:hover {
+    box-shadow: 3px 3px rgb(0, 255, 229);
     transition: 0.5s;
 }
 
@@ -418,19 +484,19 @@ h1 {
 
 .servicebox h2 {
     font-family: Arial, Helvetica, sans-serif;
-    color: #3f4def;
+    color: #959eff;
 }
 
 .servicebox a {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(143, 22, 236);
+    color: rgb(157, 255, 198);
     font-size: 20px;
     text-decoration: none;
     transition: 0.5s;
 }
 
 .servicebox a:hover {
-    color: rgb(238, 88, 13);
+    color: rgb(255, 188, 155);
     transition: 0.5s;
 }
 
@@ -438,10 +504,11 @@ h1 {
 
 .transactionArea {
     /*background: linear-gradient(45deg, #dad5ff, #dbffe0, #ffe5e5);*/
-    /*background-image: url("./images/background2.jpg");*/
+    background-image: url("./images/background5.png");
+    height: auto;
     background-size: cover;
     background-repeat: no-repeat;
-    background: linear-gradient(135deg, #D09CFA, #F3CCFF, #FFFFD0);
+    /*background: linear-gradient(135deg, #D09CFA, #F3CCFF, #FFFFD0);*/
     background-color: #ffffff37;
     display: flex;
     flex-direction: column;
@@ -498,21 +565,22 @@ h1 {
 }
 */
 .TransactionUpdater {
-    background-color: #ffffff3b;
+    background-color: #040404b3;
     align-items: center;
     text-align: center;
     padding: 20px;
     flex-wrap: wrap;
-    color: #560082;
+    color: #f5e0ff;
     border-radius: 20px;
     max-height: 70vh;
     overflow: scroll;
-    border: 3px solid #16003d;
+    /*border: 3px solid #16003d;*/
 }
 
 ::-webkit-scrollbar {
     width: 0px;
-    background: transparent; /* make scrollbar transparent */
+    background: transparent;
+    /* make scrollbar transparent */
 }
 
 .TransactionUpdater h1 {

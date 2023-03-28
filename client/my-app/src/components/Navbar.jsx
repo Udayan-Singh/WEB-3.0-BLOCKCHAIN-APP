@@ -3,28 +3,26 @@ import { AiOutlineClose } from 'react-icons/ai'*/
 
 import logo from '../Image/logo.png'
 
-const NavbarItem = ({ title, classprops }) => {
-    return (<li className={`listStyle ${classprops}`}>
+/*const NavbarItem = ({ title, classprops }) => {
+    return (<a className={`listStyle ${classprops}`}>
         {title}
-    </li>)
-}
+    </a>)
+}*/
 
-const features = ["Market", "Mining", "Tutorials", "Wallets"]
+/*const features = ["Market", "Mining", "Tutorials", "Wallets"]*/
 
 const Navbar = () => {
     return (<nav className='navbar'>
         <div>
             <img src={logo} alt="logo" className='navbar-logo' />
         </div>
-        <ul className='flatenn'>
-            {features.map((item, index) => (
-                <NavbarItem key={item + index} title={item} />
-            ))}
-            {/*<li className='loginlist'>
-                Login
-            </li>*/}
-        </ul>
 
+        <div className='listStyle'>
+            <a href='http://localhost:4500/' target='_blank' rel='noreferrer'>Markets</a>
+            <a href='http://localhost:3500/' target='_blank' rel='noreferrer'>Mining</a>
+            <a href='http://localhost:4000/' target='_blank' rel='noreferrer'>Balance</a>
+            <a href='http://localhost:4000/' target='_blank' rel='noreferrer'>Home</a>
+        </div>
     </nav>)
 }
 

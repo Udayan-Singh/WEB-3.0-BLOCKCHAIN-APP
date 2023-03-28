@@ -1,10 +1,9 @@
-import { Transactions, Services, Footer, Navbar, Welcome} from "./components/exporter";
+import { Transactions, Services, Footer, Welcome} from "./components/exporter";
 
 const App = ()=>{
     return (
         <div className=''>
-            <div className=''>
-                <Navbar />
+            <div className='navjoin'>
                 <Welcome />
             </div>
             

@@ -7,7 +7,6 @@ import wallet from '../Image/wallet.png'
 
 const Services = () => {
     return (<div className="servicesSection">
-        <h1>Get more than just Ethereum</h1>
         <div className='services'>
             <div className="servicebox">
                 <img src={cryptograph} alt="market icon"></img>
