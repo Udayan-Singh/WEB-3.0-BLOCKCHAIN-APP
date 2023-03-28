@@ -21,7 +21,7 @@ h1 {
 }*/
 
 .navbar {
-    width: 10%;
+    width: 6%;
 
     display: flex;
     flex-direction: column;
@@ -46,9 +46,17 @@ h1 {
 
 .navbar-logo {
     height: 60px;
-    width: 120px;
+    width: 60px;
     margin: 20px;
     border-radius: 20px;
+    border: 5px solid #7b06f8;
+}
+
+.nav-icons{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    border: 3px solid #ebdbfd;
 }
 
 .flatenn {
@@ -77,7 +85,6 @@ h1 {
 }
 
 .listStyle a:hover {
-    margin-right: -10px;
     transition: 0.5s;
     overflow-wrap: inherit;
     color: #a372ed;
@@ -124,10 +131,11 @@ h1 {
 
 .middlepart {
     display: flex;
-    background-color: rgba(18, 0, 27, 0.848);
+    background-color: rgba(18, 0, 27, 0.693);
     margin: 0 10px 0 0;
     padding: 15px;
     border-radius: 20px;
+    height: 80vh;
 }
 
 @media only screen and (max-width: 1350px) {
@@ -194,7 +202,7 @@ h1 {
 }
 
 .wlecome-button:hover {
-    background-color: #c35b00;
+    background-color: #a34d02;
     color: white;
     transition: 0.5s;
 }
@@ -472,7 +480,7 @@ h1 {
 }
 
 .servicebox:hover {
-    box-shadow: 3px 3px rgb(0, 255, 229);
+    box-shadow: 0 0 20px rgb(216, 182, 255);
     transition: 0.5s;
 }
 
@@ -519,6 +527,8 @@ h1 {
     border-width: 0px 0em 3px 0;
     border-style: solid;
     border-color: #7b06f8;
+
+    height: 100vh;
 }
 
 .TransactionDets {
@@ -565,7 +575,7 @@ h1 {
 }
 */
 .TransactionUpdater {
-    background-color: #040404b3;
+    background-color: #0000005a;
     align-items: center;
     text-align: center;
     padding: 20px;
