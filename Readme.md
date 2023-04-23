@@ -1,15 +1,7 @@
 ```diff
 + PLEASE CHECK LOGFILE
 ```
+### JUST RUN THE run.js file using node or nodemon.
 
 THIS A WEB 3.0 APP THAT HAVE MULTIPLE FEATURES
-
-NOTE : localhost 3000, localhost 4000 , localhost 3500 in use ! 
-Any further additions can be done in other ports.
-
-NOTE : Before running react app make sure the directory name is in lowercase
-Eg: (Rename Crypto_Prices to crypto_prices) else npm start will give error and will ask you to cange the same.
-
-PROJECT STILL UNDER DEVELOPMENT
-
 ## Thank You

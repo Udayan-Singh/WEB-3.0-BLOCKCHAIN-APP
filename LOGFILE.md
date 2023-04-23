@@ -2,13 +2,13 @@
 // just for easier access.
  
 ```diff
-+ LAST MODIFICATION : 26-03-2023
-- INTEGRITY : UNSTABLE
-- PROJECT STATUS : INCOMPLETE
++ LAST MODIFICATION : 24-04-2023
++ INTEGRITY : QUITE STABLE
++ PROJECT STATUS : MOSTLY COMPLETE
 + APP CHECKS : 3/4 OK
 + FAILED APPS : 0
 - PARTIALLY RUNNING APPS : 1
-- MEMORY LEAK ISSUE : FOUND IN MINER APP
++ MEMORY LEAK ISSUE : WITHIN CONTROLLABLE LIMITS
 + UI BUGS : NONE
 ```
 
@@ -29,3 +29,5 @@
 ### 25-03-2023 => Ui Fixes.
 ### 26-03-2023 => Miner app frontend created.
 ### 26-03-2023 => miner app integrity unstable.
+### 24-04-2023 => many features added.
+### 24-04-2023 => single run file created.
