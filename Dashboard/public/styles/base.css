@@ -1,0 +1,99 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  background-image: url("../Background/auth-bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+}
+
+#signup {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 40rem;
+  text-align: center;
+}
+
+a {
+  color:rgb(70, 0, 128);
+}
+
+a:hover,
+a:active {
+  color: rgb(113, 0, 128);
+}
+
+#main-header {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(70, 0, 128);
+}
+
+#main-header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-header li {
+  margin: 0 1rem;
+}
+
+#main-header a {
+  text-decoration: none;
+  color: white;
+}
+
+#main-header button {
+  font: inherit;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  color: white;
+  padding: 0;
+}
+
+#main-header a:hover,
+#main-header a:active,
+#main-header button:hover,
+#main-header button:active {
+  color: rgb(209, 88, 233);
+}
+
+.btn {
+  font: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: rgb(28, 194, 220);
+  border: 1px solid rgb(4, 175, 201);
+  color: rgb(0, 0, 0);
+  padding: 0.5rem 1.5rem;
+  border-radius: 100px;
+  transition: 0.5s;
+}
+
+.btn:hover,
+.btn:active {
+  transition: 0.5s;
+  background-color: rgb(0, 221, 255);
+  border-color: rgb(0, 221, 255);
+}
+
+.btn.btn-alt {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.btn.btn-alt:hover,
+.btn.btn-alt:active {
+  background-color: rgb(231, 212, 246);
+  color: black;
+}

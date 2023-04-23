@@ -1,0 +1,35 @@
+<%- include('includes/head.ejs', { title: 'Signup' }) %>
+  <link rel="stylesheet" href="/styles/forms.css">
+  <link rel="stylesheet" href="/styles/auth.css">
+</head>
+
+<body>
+  <main>
+    <section id="signup">
+      <h1>SignUp</h1>
+      <% if (inputData.hasError) { %>
+        <p id="input-error"><%= inputData.message %></p>
+      <% } %>
+      <form action="/signup" method="POST">
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter Email" value="<%= inputData.email %>" required>
+        </div>
+        <div class="form-control">
+          <label for="confirm-email">Confirm Email</label>
+          <input type="email" id="confirm-email" name="confirm-email" placeholder="Confirm Email" value="<%= inputData.confirmEmail %>" required>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Enter Password" value="<%= inputData.password %>" required>
+        </div>
+        <button class="btn">Create User</button>
+      </form>
+      <div id="auth-alternative">
+        <a class="btn btn-alt" href="/login">Login Instead</a>
+      </div>
+  </section>
+  </main>
+</body>
+
+</html>

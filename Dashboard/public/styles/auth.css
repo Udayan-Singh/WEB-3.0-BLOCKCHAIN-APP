@@ -1,0 +1,19 @@
+#signup {
+  max-width: 25rem;
+  box-shadow: 0 2px 8px rgba(0, 248, 248, 0.25);
+  border-radius: 20px;
+  padding: 20px 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  margin-top: 8rem;
+}
+
+#signup label {
+  text-align: left;
+  margin-left: 1rem;
+  font-size: 1.25rem;
+}
+
+#auth-alternative {
+  margin: 1rem;
+}

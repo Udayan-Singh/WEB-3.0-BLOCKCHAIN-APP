@@ -1,0 +1,33 @@
+.form-control {
+  margin-bottom: 1rem;
+}
+
+label {
+ display: block;
+ font-weight: 400;
+ margin-bottom: 0.5rem;
+}
+
+input {
+  font: inherit;
+  /* font-size: 1.25rem; */
+  padding: 0.5rem 0.75rem;
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.248);
+  width: 100%;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+input:focus {
+  border: transparent;
+}
+
+#input-error {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  background-color: rgb(251, 217, 217);
+  color: rgb(144, 33, 33);
+  border-radius: 4px;
+}
