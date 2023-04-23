@@ -6,6 +6,7 @@
         <li><a href="/login">Login</a></li>
       <% } %>
       <% if (locals.isAuth) { %>
+        <li><a>Welcome to ETH-flow</a></li>
         <li><a href="/dashboard">Dashboard</a></li>
         <li>
           <form action="/logout" method="POST">

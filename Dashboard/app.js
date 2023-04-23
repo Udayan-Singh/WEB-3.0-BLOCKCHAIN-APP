@@ -54,5 +54,6 @@ app.use(function (error, req, res, next) {
 });
 
 db.connectToDatabase().then(function () {
-  app.listen(3000);
+  console.log("server started at port 5500")
+  app.listen(5500);
 });

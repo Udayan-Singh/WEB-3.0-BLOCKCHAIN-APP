@@ -3,6 +3,7 @@ html {
   background-image: url("../Background/auth-bg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  overflow-y: hidden;
 }
 
 body {
@@ -28,9 +29,10 @@ a:active {
 #main-header {
   height: 5rem;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
-  background-color: rgb(70, 0, 128);
+  background-color: #160040;
+  padding-right: 20px;
 }
 
 #main-header ul {
