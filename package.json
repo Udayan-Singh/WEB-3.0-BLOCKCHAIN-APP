@@ -4,7 +4,8 @@
   "description": "```diff\r + PLEASE CHECK LOGFILE\r ```",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg run.js --output app.exe"
   },
   "repository": {
     "type": "git",
